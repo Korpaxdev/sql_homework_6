@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "homework-7"
+version = "0.1.0"
+description = ""
+authors = ["korpaxdev <korpaxdev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "homework_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^1.4.45"
+psycopg2-binary = "^2.9.5"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
